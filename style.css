@@ -1,0 +1,23 @@
+@media screen and (max-width:768px){
+    div{
+        background-color:black;
+        color: white;
+        text-align:center;
+        padding:10px;
+    }
+}
+
+@media screen and (min-width:769px){
+    div{
+        background-color:black;
+        color: white;
+        text-align:right;
+        padding:10px;
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    p{
+        padding:5px;
+    }
+}
+
